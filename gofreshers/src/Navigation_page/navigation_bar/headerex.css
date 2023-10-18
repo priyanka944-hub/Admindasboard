@@ -1,0 +1,197 @@
+.main-header-part .header{
+    width:100%;
+    height:60px;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    box-shadow: 0px 0px 10px grey;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 99;
+    position: fixed;
+    background-color:white;
+    left: 0; 
+    right: 0;
+    top: 0;
+}
+
+.main-header-part a{
+    text-decoration: none;
+    color:#677788;
+}
+
+.main-header-part .header_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px ;
+}
+
+.main-header-part .header_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header-part .header_list >li{
+    list-style: none;
+    padding:20px;
+}
+
+.main-header-part .header_list>li>a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-header-part .header_centerMenu{
+    width:100%;
+    height: 100%;
+}
+
+.main-header-part .header_centerMenu > button{
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.main-header-part .dropDown_header{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    min-height: 170px;
+    float: left;
+    box-shadow: 0px 0px 32px grey;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-header-part .header_centerMenu .dropDown_header.active{
+ display: block;
+}
+
+.main-header-part .en_language{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-header-part .en_language>a>span{
+    width:22px;
+  height: 22px;
+  font-size: 15px;
+  font-weight:900;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.main-header-part .en_language>a>img{
+    width:22px;
+    height:22px;
+    margin-right: 10px;
+}
+.header_list>.msg>a {
+    position: relative;
+}
+
+.header_list>.msg>a >sup {
+    background-color:#FF6767;
+   color:white;
+   border-radius: 90%;
+   position: absolute;
+   width: 21px;
+   height: 21px;
+   text-align: center;
+   line-height: 19px;
+   border: 2px solid #fff;
+   left:10px;
+   bottom:5px;
+}
+.header_list>.cart>a{
+    position: relative;
+}
+.header_list>.cart>a >sup{
+    background-color:#FF6767;
+    color:white;
+    border-radius: 90%;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 19px;
+    border: 2px solid #fff;
+    left:10px;
+    bottom:5px;
+}
+
+.header_list>.msg>a>.message_icon , .header_list>.cart>a>.cart_icon{
+    font-weight: 800;
+   width:22px;
+   height: 22px;
+}
+
+.header_centerMenu>button>.inner_login_details{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header_centerMenu>button>ul>li>.admin_details{
+    color: #677788;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.main-header-part .admin_login_details{
+    margin-top: -20px ;
+    color: #677788;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main-header-part .profile{
+    border-radius: 50%;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin-top:2px;
+  }
+
+  .main-header-part .profile-inner{
+    position: relative;
+  }
+
+  .main-header-part .profile-inner sub{ 
+    background-color: #00C9A7;
+    color:  #00C9A7;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    font-size: .4375rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.main-header-part .dropDown_header{
+    padding: 20px;
+}
+
+
+.dropDown_header>a>.login_form>img{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.dropDown_header>a>.login_form{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.dropDown_header>a{
+    text-align: center;
+}
+

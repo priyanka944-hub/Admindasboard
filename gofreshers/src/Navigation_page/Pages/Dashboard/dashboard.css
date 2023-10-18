@@ -1,0 +1,231 @@
+.dashboard {
+    box-sizing: border-box;
+    text-align: left;
+}
+.dashboard .text-107980 {
+    color: #107980!important;
+}
+.dashboard .page-header-title {
+    margin-bottom: 8px;
+}
+.dashboard .page-header-title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.dashboard a{
+    text-decoration: none;
+}
+.dashboard .welcome-msg {
+    font-weight: 600;
+    color: #334257;
+    font-size: 14px;
+}
+.dashboard p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.card {
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 5px 10px rgba(51,66,87,.05);
+    border-radius: 10px;
+}
+.mb-10px {
+    margin-bottom: 10px!important;
+}
+.card {
+    box-shadow: 0 6px 12px rgba(140,152,164,.075);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(231, 234, 243, 0.7);
+    border-radius: 0.75rem;
+}
+.card-body:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card .card-header:first-child, .card .card-body:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.3125rem;
+}
+
+.btn--container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
+}
+.btn--container .card-title {
+    display: flex;
+    align-items: center;
+}
+.btn--container>* {
+    margin: 8px;
+}
+.card-title {
+    text-transform: capitalize;
+}
+.btn--container>* {
+    margin: 8px;
+}
+.btn--container .custom-select {
+    font-size: 14px;
+    color: rgba(51,66,87,.75);
+}
+.custom-select {
+    height: 45px;
+}
+.custom-control-label, .custom-select {
+    cursor: pointer;
+}
+.btn--container>* {
+    margin: 8px;
+}
+.btn--container>* {
+    margin: 8px;
+}
+.dashboard--card {
+    position: relative;
+    border-radius: 10px;
+    padding: 28px 50px 15px 28px;
+    border: 1px solid rgba(16,121,128,.2);
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(16,121,128,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    border-radius: 10px;
+    min-height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashboard--card .subtitle {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #334257;
+    margin-bottom: 10px;
+}
+.dashboard--card .title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin: 0;
+    color: #334257;
+    font-size: 24px;
+    font-weight: 700;
+}
+.dashboard--card .dashboard-icon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    max-width: 30px;
+    height: 30px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.order--card {
+    background: rgba(110,137,175,.0509803922);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 15px 15px 20px;
+    min-height: 65px;
+}
+.order--card .card-subtitle {
+    color: #334257;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.order--card .card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.order--card .card-subtitle img {
+    max-width: 20px;
+    max-height: 20px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.statistics-btn-grp {
+    border-radius: 5px;
+    border: 1px solid rgba(16,121,128,.2);
+}
+.statistics-btn-grp label {
+    padding: 3px;
+    margin: 0;
+    display: block;
+}
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+[hidden] {
+    display: none !important;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.card .card-header:first-child, .card .card-body:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.statistics-btn-grp label input:checked~span {
+    background: #107980;
+    color: #fff;
+    font-weight: 700;
+}
+.statistics-btn-grp label span {
+    font-size: 12px;
+    color: var(--title-3);
+    text-transform: capitalize;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 15px;
+    display: block;
+}
+.card-header {
+    padding: 1rem 1.125rem;
+}
+.order-header-shadow {
+    box-shadow: 0 3px 3px rgba(51,66,87,.05);
+}
+.chart{
+    width:100%;
+    
+}

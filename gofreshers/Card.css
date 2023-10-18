@@ -1,0 +1,86 @@
+.Discount .page-header{
+    text-align:left;
+    font-size: 24px;
+}
+.Discount .card .card-body form{
+    text-align: left;
+}
+.Discount .card .card-body form label{
+    margin:20px 0px;
+}
+.Discount .card .card-body form .col-md-12 .btn-1{
+    background-color: aliceblue;
+    width:100px;
+    margin-right: 10px;
+
+}
+.Discount .card .card-body form .col-md-12 .btn-1:hover{
+    background-color: gray;
+}
+.Discount .card .card-body form .col-md-12 .btn-2{
+    background-color: rgb(5, 112, 112);
+    width:100px;
+}
+.Discount .card .card-body form .col-md-12 .btn-2:hover{
+    background-color: rgb(6, 206, 206);
+    color:white;
+}
+.Discount .card  .card-header{
+    width:100%;
+    display: flex;
+     /* flex-wrap: wrap; 
+     align-items: center; */
+    justify-content: space-between;
+    
+ 
+    
+} 
+.Discount .card  .card-header .card-title .badge{
+    background-color: gray;
+    color:black;
+ font-size:10px ;
+ margin-left: 5px;
+}
+
+.Discount .card  .card-header .search{
+    background-color: rgb(5, 112, 112);
+    width:100px;  
+}
+ .Discount .card  .card-body  .table-header{
+    background-color: lightblue;
+    height: 70px;
+ }
+ .Discount .card  .card-body .table .form-switch .form-check-input{
+    position: relative;
+    left: 60px;
+ }
+ .Discount .card  .card-body .table{
+    width: 150%;
+ }
+ .Discount .card  .card-body .table .icon-1{
+border: 2px solid  skyblue;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 3px;
+    background-color:  white;
+ }
+ .Discount .card  .card-body .table .icon-1:hover{
+background-color:skyblue ;
+    color: aliceblue;
+ }
+ .Discount .card  .card-body .table .icon-2{
+    
+    border: 2px solid  red;
+    margin: 2px;
+    color: red;
+    border-radius: 5px;
+    padding: 3px;
+    background-color:  white;
+ }
+  .Discount .card  .card-body .table .icon-2:hover{
+    background-color:red ;
+    color: aliceblue;
+}
+  .Discount .card{
+     margin:20px 0px;
+ }
